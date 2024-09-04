@@ -1,0 +1,118 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.main_panel {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+.player_panel_info {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+
+.player_info_content img {
+    margin-left: 10px;
+    vertical-align: middle;
+    width: 25px;
+}
+
+.player_avatar {
+    display: flex;
+    align-items: center;
+}
+
+.player_avatar_change {
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.player_avatar svg {
+    width: 24px;
+    height: 24px;
+}
+
+.player_avatar_content img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ddd;
+}
+
+.player_info {
+    margin-top: 20px;
+}
+
+.player_info_content {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.player_info img {
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.registrtion_date small {
+    display: block;
+    margin-top: 10px;
+    color: #777;
+}
+
+.right_panel {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.rank {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.friends_list {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.friends_list h3 {
+    margin-top: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.friends_list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.friends_list li {
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.show_more {
+    margin-top: 10px;
+    cursor: pointer;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.show_more:hover {
+    text-decoration: underline;
+}
+
+.hidden {
+    display: none;
+}

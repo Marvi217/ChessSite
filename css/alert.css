@@ -1,0 +1,102 @@
+.panel {
+    display: flex;
+    gap: 15px;
+}
+
+.sidePanel {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.main_panel {
+    flex: 3;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+}
+
+.alertBox {
+    margin: 0;
+    min-height: 100vh;
+}
+
+.alert {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fafafa;
+    display: flex;
+    align-items: center;
+}
+
+.alert-checkbox {
+    margin-right: 15px;
+}
+
+.alert_content {
+    flex: 1;
+}
+
+.alert-message p {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.alert-date p {
+    margin: 0;
+    color: #777;
+}
+
+.alert_request {
+    display: flex;
+    gap: 10px;
+}
+
+.alert-accept, .alert-reject {
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.alert-accept {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.alert-accept:hover {
+    background-color: #218838;
+}
+
+.alert-reject {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.alert-reject:hover {
+    background-color: #c82333;
+}
+
+.alert-accepted {
+    color: #ffffff;
+}
+
+.alert-rejected {
+    color: #ffffff;
+}
+
+.hidden {
+    display: none;
+}
+
+.no-alerts {
+    text-align: center;
+    font-size: 18px;
+    color: #777;
+}

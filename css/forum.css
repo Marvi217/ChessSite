@@ -1,0 +1,361 @@
+button, a.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+p{
+    color: #000;
+}
+#showPostForm button {
+    background-color: #007bff;
+}
+
+#showPostForm button:hover {
+    background-color: #0056b3;
+}
+
+#hidePostForm button {
+    background-color: #dc3545;
+}
+
+#hidePostForm button:hover {
+    background-color: #c82333;
+}
+
+#deleteTopic a {
+    margin-top: 20px;
+    background-color: #dc3545;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#deleteTopic a:hover {
+    background-color: #c82333;
+}
+
+.panel_forum {
+    max-width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.forum-header {
+    margin-bottom: 20px;
+}
+
+.forum-header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+#wkurw {
+    margin-bottom: 20px;
+}
+
+#searchInput {
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#searchForm {
+    margin-bottom: 20px;
+}
+
+.creat-subject {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.creat-subject:hover {
+    background-color: #0056b3;
+}
+
+#searchResults {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#searchResults ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+#searchResults li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#searchResults a {
+    text-decoration: none;
+    color: #333;
+    flex: 1;
+}
+
+#searchResults a:hover {
+    text-decoration: underline;
+}
+
+#searchResults .thread-date {
+    font-size: 14px;
+    color: #777;
+    white-space: nowrap;
+    margin-left: 10px;
+}
+
+.new_thred {
+    display: none;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.new_thred h1 {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+#new_subject label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#new_subject input[type="text"],
+#new_subject textarea {
+    max-width: 98%;
+    min-width: 98%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#new_subject textarea {
+    min-height: 150px;
+}
+
+#new_subject input[type="submit"] {
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#new_subject input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+.subject_autor {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.subject_autor h1 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.subject_autor p {
+    font-size: 16px;
+    color: #555;
+}
+
+.wpis_tresc {
+    margin-top: 20px;
+}
+
+.wpis_tresc_content {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.wpis_tresc_tresc {
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+#postForm, #postFormElement {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#postForm h2, #postFormElement h2 {
+    font-size: 20px;
+}
+
+#postForm label, #postFormElement label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#postForm textarea, #postFormElement textarea {
+    min-width: 100%;
+    max-width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+#postForm input[type="submit"], #postFormElement input[type="submit"] {
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#postForm input[type="submit"]:hover, #postFormElement input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+#posts {
+    max-width: 1200px;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+#posts p {
+    color: #000;
+}
+#posts ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#posts li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+#posts li p {
+    margin: 5px 0;
+    color: #000;
+}
+
+#posts li small {
+    display: block;
+    color: #777;
+}
+
+#showPostForm, #hidePostForm {
+    margin-top: 20px;
+}
+
+#showPostForm, #hidePostForm button {
+    padding: 10px 15px;
+    font-size: 16px;
+    width: fit-content;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.post-buttons {
+    margin-top: 10px;
+}
+
+.post-buttons a {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.post-buttons a.edit-button {
+    background-color: #007bff;
+}
+
+.post-buttons a.edit-button:hover {
+    background-color: #0056b3;
+}
+
+.post-buttons a.delete-button {
+    background-color: #dc3545;
+}
+
+.post-buttons a.delete-button:hover {
+    background-color: #c82333;
+}

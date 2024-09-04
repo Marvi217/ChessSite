@@ -1,0 +1,131 @@
+.ranking_panel {
+    width: 70%;
+    min-width: 675px;
+    display: flex;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-content: space-around;
+}
+.ranking_body {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+p {
+    color: #000;
+}
+.country_ranking {
+    margin-bottom: 20px;
+}
+
+.country_ranking h3 {
+    margin-top: 0;
+}
+
+.country_ranking form {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.country_ranking label {
+    margin-right: 10px;
+}
+
+.country_ranking select {
+    padding: 5px;
+    font-size: 16px;
+}
+
+.country_ranking input[type="submit"] {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.country_ranking input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.flex {
+    display: flex;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.ranking {
+    width: 100%;
+}
+
+.ranking h2 {
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.player_panel_content {
+    display: flex;
+    background-color: #f0f0f0;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+.player_ranking_number {
+    width: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.player_avatar {
+    margin-right: 10px;
+}
+
+.player_avatar img.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.player_info {
+    flex: 1;
+}
+.player_info_content{
+    display: flex;
+    align-items: center;
+}
+.player_info_content a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.player_info_content a:hover {
+    text-decoration: underline;
+}
+
+.flag img {
+    width: 20px;
+    height: 15px;
+    vertical-align: middle;
+}
+
+.player_score {
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+}

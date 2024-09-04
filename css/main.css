@@ -1,0 +1,173 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url("../obrazki/chess-background.jpg");
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.top-panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.logo_menu {
+    display: flex;
+    align-items: center;
+}
+
+.logo_menu_img img {
+    width: 200px;
+    height: auto;
+}
+
+.dropdown {
+    position: relative;
+    display: flex;
+    width: 200px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a,
+.dropdown-content p {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.dropdown a:hover {
+    background-color: #575757;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+input[type='text'] {
+    padding: 10px;
+    width: 200px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+p {
+    margin: 10px 0;
+    color: #f2f2f2;
+    font-size: 14px;
+}
+
+.nav_panel {
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    width: 250px;
+}
+
+.side_panel {
+    background-color: #333;
+    padding: 15px;
+    flex: 1;
+}
+
+.side_panel a {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+    justify-content: flex-start;
+}
+
+.side_panel a:hover {
+    background-color: #575757;
+}
+
+.side_panel_content {
+    display: flex;
+    flex-direction: column;
+}
+
+.link {
+    text-decoration: none;
+    color: #ecf0f1;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link:hover {
+    color: #3498db;
+}
+
+.icon_svg {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    fill: currentColor;
+}
+
+.user, .friends, .alert-icon, .password {
+    display: flex;
+    align-items: center;
+}
+
+span {
+    color: inherit;
+}
+
+.raport_main_panel {
+    height: 100vh;
+}

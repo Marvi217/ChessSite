@@ -1,0 +1,183 @@
+.window {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    min-height: 100vh;
+}
+
+.v5-section {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+
+.v5-section-content {
+    width: 60%;
+    display: flex;
+    max-width: 700px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.friend_header {
+    display: flex;
+    margin: 10px;
+    gap: 20px;
+    width: 200px;
+    font-size: 30px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.friend_icon {
+    width: 35px;
+    margin-right: 10px;
+}
+
+.friend_icon span {
+    font-size: 30px !important;
+}
+
+
+.friend_icon img {
+    width: 40px;
+    height: 40px;
+}
+
+.friends-section-search {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.friends-search-icon {
+    display: flex;
+    align-items: center;
+}
+
+.friends-search-icon img {
+    width: 20px;
+    height: 20px;
+}
+
+.search-input {
+    flex: 1;
+}
+
+.friends-search-input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.friends-search-results {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.friends-section-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.friends-section-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.friends-section-count {
+    font-size: 18px;
+    font-weight: normal;
+    color: #777;
+}
+
+.friends-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px; 
+    box-sizing: border-box;
+}
+.users-list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fafafa;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    min-width: 250px;
+    box-sizing: border-box;
+    gap: 10px;
+}
+
+.users-list-avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-avatar-image {
+    border-radius: 50%;
+}
+
+.users-list-details {
+    flex: 1;
+}
+
+.cc-text-medium-bold {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.friends-actions-component {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.friends-actions-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+.add_friend {
+    display: flex;
+    align-items: center;
+}
+
+.add_friend img {
+    width: 24px;
+    height: 24px;
+}
+
+.friends-section-empty {
+    text-align: center;
+    font-size: 18px;
+    color: #777;
+}
+
+.hidden {
+    display: none;
+}
+#friend_search_form {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}

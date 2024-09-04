@@ -1,0 +1,146 @@
+.index-main-panel {
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.main-panel_index {
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.alerts {
+    margin: 0;
+    padding: 0;
+}
+
+.alerts > div {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background-color: #fff;
+    position: relative;
+}
+
+.alerts-title {
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+    justify-content: center;
+}
+
+.alerts-tresc {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.alerts-date {
+    font-size: 14px;
+    color: #999;
+    text-align: right;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.add_button, .back_button {
+    margin: 20px 0;
+}
+
+.add_button a, .back_button a, .edit-button, .delete-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+}
+
+.add_button a:hover, .back_button a:hover, .edit-button:hover, .delete-button:hover {
+    background-color: #0056b3;
+}
+
+.announcement-panel {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.announcement-form, .announcement-edit-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.announcement-form textarea, .announcement-edit-form textarea {
+    padding: 10px;
+    max-width: 100%;
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    width: 200px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #218838;
+}
+
+.edit-button {
+    position: absolute;
+    top: 10px;
+    right: 70px;
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #ffc107;
+    color: #000;
+    border-radius: 4px;
+}
+
+.edit-button:hover {
+    background-color: #e0a800;
+}
+
+.delete-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #dc3545;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+}
