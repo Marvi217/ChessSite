@@ -377,7 +377,8 @@
                 const boardDiv = $("#chess-board");
                 boardDiv.addClass("inactive");
                 this.gameOver = true;
-                const randomPoints = getRandomNumber(100, 1000);
+                const randomPoints = this.getRandomNumber(100, 1000);
+                console.log(randomPoints);
                 
                 $.post("updatePoints.php", {
                     winnerColor: winnerColor,

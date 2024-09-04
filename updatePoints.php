@@ -8,7 +8,7 @@ if (isset($_POST['points'])) {
     $points = $_POST['points']; 
 
     $sql = "UPDATE uzytkownicy SET wynik = wynik + $points WHERE id='$id'";
-    $sql2 = "INSERT INTO games (player, wynik) VALUES ('$id','$points')";
+    $sql2 = "INSERT INTO games2 (player, wynik) VALUES ('$id','$points')";
 
     if ($conn->query($sql) === TRUE) {
         $conn->query($sql2);
